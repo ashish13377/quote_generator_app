@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(256.47deg, #5E2AB3 2.64%, #161E6C 140.46%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav {
+  padding-top: 20px;
+}
+
+.nav-tab {
+  width: 70%;
+
+}
+
+.navs-link {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 60px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.active {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.screen {
+  height: 87vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.screen2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 800px;
+  height: 200px;
+  background: #D05252;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.inner-card{
+  display: flex;
+  justify-content: right;
+}
+
+.card2 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 800px;
+  height: 200px;
+  background: #D05252;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.text {
+  font-family: 'Poppins';
+  font-style: normal;
+  text-align: center;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+.auth {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  color: #FFFFFF;
+}
+
+.nextBtn {
+  width: 200px;
+  height: 50px;
+  background: #009C51;
+  cursor: pointer;
+  box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.tagsBtn {
+  width: 200px;
+  height: 50px;
+  background: #D9D9D9;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.tagsBtn:hover {
+  width: 200px;
+  height: 50px;
+  color: black;
+  padding: 8px 16px ;
+  background: #D9D9D9;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+
+
+.tagsBtndiv {
+  margin-top: 30px;
+}
+
+.nextBtndiv {
+  margin-top: 80px;
+}
+
+.loader{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and
+(min-width: 768px) and
+(max-width: 1023px)
+{
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .card{
+    width: 700px;
+  }
+
+  .card2{
+    width: 700px;
+  }
+}
+
+@media screen and
+(min-width: 536px) and
+(max-width: 767px)
+{
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .card{
+    width: 500px;
+  }
+
+  .card2{
+    width: 500px;
+  }
+}
+
+@media screen and
+(min-width: 200px) and
+(max-width: 536px)
+{
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .card{
+    width: 330px;
+  }
+
+  .card2{
+    width: 330px;
+  }
+}
