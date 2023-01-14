@@ -32,7 +32,7 @@ export default function Home() {
     // http://api.quotable.io/tags
 
     useEffect(() => {
-        fetch("http://api.quotable.io/tags")
+        fetch("https://api.quotable.io/tags")
             .then((response) => response.json())
             .then((json) => {
                 console.log(json);
