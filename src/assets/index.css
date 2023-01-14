@@ -52,7 +52,7 @@ code {
 
 .card {
   width: 800px;
-  height: 200px;
+  height: 260px;
   background: #D05252;
   border-radius: 30px;
   display: flex;
@@ -71,7 +71,7 @@ code {
   margin-top: 1%;
   margin-bottom: 1%;
   width: 800px;
-  height: 200px;
+  height: 260px;
   background: #D05252;
   border-radius: 30px;
   display: flex;
@@ -173,6 +173,7 @@ code {
 
   .card{
     width: 500px;
+   
   }
 
   .card2{
